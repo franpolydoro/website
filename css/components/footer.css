@@ -1,0 +1,35 @@
+footer {
+  --color-background: var(--color-ebony);
+  --color-text: var(--color-white);
+  --height: 1.6rem;
+
+  position: relative;
+  z-index: 999;
+
+  background: var(--color-background);
+  color: var(--color-text);
+
+  display: grid;
+
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  nav {
+    display: flex;
+    gap: 1rem;
+
+    place-content: center;
+  }
+
+  a {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    width: fit-content;
+    font-weight: 500;
+  }
+
+  a > svg {
+    height: 2rem;
+  }
+}

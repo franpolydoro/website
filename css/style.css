@@ -1,0 +1,11 @@
+@import url("preflight.css");
+@import url("main.css");
+
+@import url("./components/header.css");
+@import url("./components/footer.css");
+
+@import url("./sections/hero.css");
+@import url("./sections/sobre-mim.css");
+@import url("./sections/servicos.css");
+@import url("./sections/projetos.css");
+@import url("./sections/avaliacoes.css");

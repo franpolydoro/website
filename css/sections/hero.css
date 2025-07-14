@@ -1,0 +1,62 @@
+#hero {
+  article {
+    grid-column: span 2;
+  }
+
+  span {
+    text-decoration: underline var(--color-ebony);
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  nav {
+    margin-top: 2em;
+  }
+
+  a {
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    max-width: 50%;
+    font-weight: 500;
+
+    transform: translateX(-0.5rem);
+  }
+
+  a > svg {
+    height: 2rem;
+  }
+
+  .hero__image {
+    display: none;
+  }
+
+  .hero__image > svg {
+    position: absolute;
+    height: 100%;
+    rotate: -15deg;
+
+    color: var(--color-brown--light);
+  }
+}
+
+.texture--brown {
+  height: 4rem;
+  width: 100%;
+  background-image: url("../../public/brown-texture.svg");
+}
+
+@media screen and (min-width: 40rem) {
+  #hero {
+    .hero__image {
+      display: block;
+    }
+  }
+
+  .texture--brown {
+    display: none;
+  }
+}

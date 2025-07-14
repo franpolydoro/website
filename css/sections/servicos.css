@@ -1,0 +1,44 @@
+#servicos {
+  article {
+    grid-column: span 2;
+  }
+
+  h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-weight: 600;
+
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 svg {
+    display: none;
+    height: 2rem;
+  }
+
+  .block {
+    display: none;
+  }
+
+  @media screen and (min-width: 64rem) {
+    h3 {
+      transform: translateX(-2.5rem);
+    }
+
+    h3 svg {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 40rem) {
+    .block {
+      display: block;
+
+      background: var(--color-ebony--dark);
+      height: 100%;
+    }
+  }
+}

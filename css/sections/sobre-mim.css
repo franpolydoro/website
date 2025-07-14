@@ -1,0 +1,22 @@
+#sobre-mim {
+  article {
+    grid-column: 2/4;
+  }
+
+  img {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+
+    grid-row: 1;
+
+    height: 100%;
+    margin-top: 2rem;
+  }
+
+  @media screen and (min-width: 40rem) {
+    img {
+      margin-top: 0;
+    }
+  }
+}

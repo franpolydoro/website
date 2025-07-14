@@ -1,0 +1,5 @@
+#avaliacoes {
+  article {
+    grid-column: span 2;
+  }
+}
