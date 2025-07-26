@@ -104,8 +104,6 @@ section {
 
   p {
     margin-bottom: 1rem;
-    text-align: justify;
-    text-justify: inter-word;
   }
 }
 
@@ -144,5 +142,10 @@ section[theme="brown"] {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+  }
+
+  section p {
+    text-align: justify;
+    text-justify: inter-word;
   }
 }
