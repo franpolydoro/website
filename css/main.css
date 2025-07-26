@@ -52,11 +52,11 @@ button:hover {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 h3 {
@@ -130,6 +130,14 @@ section[theme="brown"] {
 }
 
 @media screen and (min-width: 40rem) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
   section .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
