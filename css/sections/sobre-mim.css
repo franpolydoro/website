@@ -6,18 +6,22 @@
   img {
     display: block;
     object-fit: cover;
-    object-position: center;
+    object-position: bottom;
 
     grid-row: 1;
 
-    height: 100%;
-    max-width: 100%;
     margin-top: 2rem;
+
+    width: 100%;
+    aspect-ratio: 1;
   }
 
   @media screen and (min-width: 40rem) {
     img {
       margin-top: 0;
+      height: 100%;
+      aspect-ratio: 0;
+      object-position: center;
     }
   }
 }
